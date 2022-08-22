@@ -10,7 +10,8 @@ def hello():
 
 @app.route('/predict',methods=['POST'])
 def predict():
-    pass
+    return(request.args.get("test"))
+    
 
 
 if __name__ == '__main__':
