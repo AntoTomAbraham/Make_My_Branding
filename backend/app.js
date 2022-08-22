@@ -16,16 +16,16 @@ dotenv.config();
 // --------------------Depolyment----------------------------
 
 const dirName=path.resolve()
-if(process.env.NODE_ENV === "production"){
-  app.use(express.static(path.join(dirName ,"/frontend/build")))
-  app.get("*",(req, res)=>{
-    res.sendFile(path.resolve(dirName , 'frontend','build','index.html'));
-  })
-}else{
+// if(process.env.NODE_ENV === "production"){
+//   app.use(express.static(path.join(dirName ,"/frontend/build")))
+//   app.get("*",(req, res)=>{
+//     res.sendFile(path.resolve(dirName , 'frontend','build','index.html'));
+//   })
+// }else{
   app.get("/",(req,res)=>{
     res.send("Api is running sucessful")
   })
-}
+//}
 
 //
 

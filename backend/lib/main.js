@@ -2,16 +2,23 @@ var express = require("express");
 var router = express.Router();
 const Axios = require("axios").default;
 var qs = require("qs");
+const csv = require('csv-parser')
+const fs = require('fs')
+
+
 
 //var token="e086af37-4c1f-46f8-8220-da63ee5d6321";
 var token = "";
 var array = [];
 var unique = [];
 
+
 router.post("/getOverview", async function (req, res, next) {
   try {
     array=[];
     unique=[];
+    cityResults=[];
+
     //Create Token
     var data = qs.stringify({
       grant_type: "client_credentials",
@@ -40,6 +47,7 @@ router.post("/getOverview", async function (req, res, next) {
       .catch(function (error) {
         console.log(error);
       });
+
     //API request to get poi
     const config = {
       headers: { Authorization: `Bearer ${token}` },
@@ -52,7 +60,6 @@ router.post("/getOverview", async function (req, res, next) {
     )
       .then(function (response) {
         response.data.copResults.forEach(function (element, index) {
-            console.log(element);
           if (element["poi"] != "") {
             array.push(element["poi"]);
           }
@@ -61,16 +68,43 @@ router.post("/getOverview", async function (req, res, next) {
       })
       .catch((err) => console.log(err));
       console.log(unique);
-    //Response Statement
+
     return res.json({
       success: true,
       response: {
         poi: unique,
       },
     });
+
   } catch (error) {
     console.log(error);
   }
+});
+
+const results = [];
+var cityResult=[];
+router.post("/readCsv", async function (req, res) {
+
+fs.createReadStream('model/data.csv')
+  .pipe(csv({}))
+  .on('data', (data) => results.push(data))
+  .on('end', () => {
+    cityResult=[];
+    results.forEach(function(element,index){
+      if(element['﻿Location']=== req.body.city){
+        cityResult.push(element);
+      }
+    })
+    console.log(cityResult)
+    return res.json({
+      success: true,
+      response: {
+        cityResult: cityResult,
+      },
+    });
+    //res.json(cityResult)
+});
+
 });
 
 module.exports = router;
