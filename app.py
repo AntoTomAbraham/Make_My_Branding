@@ -1,5 +1,6 @@
 from xml.etree.ElementTree import tostring
 from flask import Flask,request,jsonify
+from flask_cors import CORS
 import pandas as pd
 import numpy as np
 import pickle
@@ -10,7 +11,7 @@ x = df.iloc[:,[0,2,3,4,5,9,10]]
 model = pickle.load(open('model.pkl','rb'))
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/')
 def hello():
