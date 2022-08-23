@@ -1,0 +1,55 @@
+﻿Location,Place,NatureOfLocation,LocationType,Category,Size(sqft),Footfall,IncomeLevel,AgeGroup,PPI,Light,Rate(1month)
+Mumbai,Bandra,CBD,Urban,Hoardings,855,,LowerMiddle,MiddleAged,Medium,No,180000
+Mumbai,Dadar Flyover,SH,Urban,Hoardings,800,,LowerMiddle,MiddleAged,Medium,No,100000
+Mumbai,Dadar Flyover,SH,Urban,Hoardings,600,,LowerMiddle,MiddleAged,Medium,No,100000
+Mumbai,ELPHINSTONE FLYOVER,CBD,Urban,Hoardings,1700,,LowerMiddle,MiddleAged,Medium,No,100000
+Mumbai,KEMPS CORNER,CBD,Urban,Hoardings,480,,LowerMiddle,MiddleAged,Low,No,260000
+Mumbai,LOWER PAREL FLYOVER,CBD,Urban,Hoardings,600,,LowerMiddle,MiddleAged,Medium,No,70000
+Kolkata,Technopolis Flyover,TechPark,Urban,Hoardings,1600,,UpperMiddle,Young,High,Yes,275000
+Kolkata,Sector 5,CBD,Urban,Hoardings,300,,LowerMiddle,MiddleAged,Medium,No,55000
+Kolkata,Sector V,CBD,Urban,Unipole,300,,LowerMiddle,MiddleAged,Medium,Yes,75000
+Kolkata,JLN Marg Trimurti Circle,CBD,Urban,Gantry,440,,LowerMiddle,MiddleAged,Medium,Yes,250000
+Kolkata,Birla Mandir,CBD,Urban,Gantry,400,,LowerMiddle,MiddleAged,High,Yes,425000
+Kolkata,World Trade Park,TechPark,Urban,Gantry,368,,UpperMiddle,Young,High,Yes,300000
+Kolkata,Technopolis Bridge Facing Airport ,AirportRoad,Urban,Hoardings,1600,,UpperMiddle,Young,Medium,Yes,15000
+Kolkata,"B2 Bypass Circle, Facing Airport",AirportRoad,Rural,Gantry,360,,UpperMiddle,MiddleAged,Medium,No,200000
+Mumbai,CSMIA,Airport,Urban,Digital,0.22,370000,UpperMiddle,Young,High,Yes,60000
+Hyderabad,RGIA,Airport,Urban,Digital,1.8,270000,UpperMiddle,Young,High,Yes,1250000
+Bangalore,Adugodi,CBD,Urban,Hoardings,750,,LowerMiddle,Young,High,Yes,89000
+Bangalore,AirportRoad,AirportRoad,Rural,Hoardings,1200,,UpperMiddle,Young,High,Yes,125000
+Bangalore,ANAND RAO CIRCLE,CBD,Urban,Hoardings,300,,UpperMiddle,Young,High,Yes,110000
+Bangalore,BANASHANKARI,CBD,Urban,Hoardings,400,,High,Young,High,No,50000
+Bangalore,BANASWADI,CBD,Urban,Hoardings,750,,High,Young,High,No,130000
+Bangalore,BASAVESHWARA NAGAR,CBD,Urban,Hoardings,900,,High,Young,High,Yes,85000
+Bangalore,BELLANDUR,CBD,Urban,Hoardings,2480,,High,Young,High,Yes,185000
+Bangalore,BTM LAYOUT,CBD,Urban,Hoardings,600,,UpperMiddle,Young,High,No,100000
+Hyderabad,Moosapet,Metro,Urban,PillarAd,50,,LowerMiddle,MiddleAged,High,Yes,30000
+Hyderabad,Miyapur,Metro,Urban,PillarAd,50,,LowerMiddle,MiddleAged,High,Yes,30000
+Chennai,ChennaiMetro,Metro,Urban,Digital,120,12500000,UpperMiddle,MiddleAged,High,Yes,200000
+Chennai,ChennaiMetro,Metro,Urban,PartialWrap,0,12500000,UpperMiddle,MiddleAged,High,Yes,1500000
+Chennai,ChennaiMetro,Metro,Urban,FullWrap,0,12500000,UpperMiddle,MiddleAged,High,Yes,2300000
+Delhi,DelhiMetro,Metro,Urban,Digital,120,12500000,UpperMiddle,MiddleAged,Medium,Yes,200000
+Delhi,DelhiMetro,Metro,Urban,PartialWrap,0,12500000,UpperMiddle,MiddleAged,Medium,Yes,1500000
+Delhi,DelhiMetro,Metro,Urban,FullWrap,0,12500000,UpperMiddle,MiddleAged,Medium,Yes,2300000
+Delhi,IGI,Airport,Urban,Digital,512,303000,UpperMiddle,MiddleAged,High,Yes,1425000
+Delhi,IGI,Airport,Urban,Digital,225,303000,UpperMiddle,MiddleAged,High,Yes,997000
+Delhi,IGI,Airport,Urban,Hoardings,12,303000,UpperMiddle,MiddleAged,High,Yes,161000
+Delhi,IGI,Airport,Urban,PillarAd,111,303000,UpperMiddle,MiddleAged,High,Yes,441000
+Chennai,Meenambakkam,Airport,Urban,Digital,48,1373731,UpperMiddle,Young,High,Yes,516800
+Chennai,Meenambakkam,Airport,Urban,Hoardings,177,1373731,UpperMiddle,Young,High,Yes,485000
+Chennai,Meenambakkam,Airport,Urban,Hoardings,24,1373731,UpperMiddle,Young,High,Yes,242250
+Delhi,AIMSBUILDERNOIDA,NH,Rural,Hoardings,450,,Low,MiddleAged,Medium,No,75000
+Delhi,AKSHARDHAM TEMPLE,CBD,Urban,Hoardings,200,,LowerMiddle,MiddleAged,Medium,No,100000
+Delhi,AKSHARDHAM,CBD,Urban,Gantry,250,,LowerMiddle,MiddleAged,Medium,No,250000
+Chennai,AVADI RAILWAY,RailwayStation,Urban,Hoardings,100,,LowerMiddle,MiddleAged,Low,No,20000
+Chennai,Chengalpattu,CBD,Rural,Hoardings,450,,LowerMiddle,MiddleAged,Low,No,57250
+Chennai,Adayar,CBD,Urban,Hoardings,385,,LowerMiddle,MiddleAged,Medium,Yes,200000
+Chennai,RadialRoad,SH,Urban,Hoardings,900,,LowerMiddle,MiddleAged,Medium,No,170000
+Bangalore,MG Road,CBD,Urban,Hoardings,900,,UpperMiddle,Young,High,Yes,225000
+Delhi,DND Flyway,NH,Urban,Hoardings,800,,LowerMiddle,MiddleAged,High,No,350000
+Bangalore,TumkurRoad,NH,Rural,Hoardings,750,,Low,MiddleAged,Medium,Yes,75000
+Bangalore,HosurRoad,NH,Urban,Hoardings,1600,,Low,MiddleAged,High,Yes,150000
+Bangalore,GolfClub,CBD,Urban,Gantry,565,,High,Young,High,Yes,600000
+Bangalore,IndianOilFO,NH,Rural,Hoardings,930,,Low,MiddleAged,Medium,Yes,130000
+Delhi,EXPRESSMARTNOIDA,NH,Urban,Hoardings,128,,LowerMiddle,MiddleAged,High,No,125000
+Delhi,GRNOIDA,NH,Rural,Hoardings,900,,LowerMiddle,MiddleAged,Medium,No,125000

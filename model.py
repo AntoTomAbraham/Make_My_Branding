@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pickle
 
-df = pd.read_csv('model/data.csv')
+df = pd.read_csv('data.csv')
 x = df.iloc[:,[0,2,3,4,5,9,10]] #independent
 y = df.iloc[:,-1] #dependent
 
@@ -19,9 +19,12 @@ from sklearn.ensemble import RandomForestRegressor
 regressor = RandomForestRegressor(n_estimators=33,random_state=0)
 regressor.fit(x_train,y_train)
 
+pickle.dump(regressor,open('model.pkl','wb'))
+pickle.load(open('model.pkl','rb'))
+
 newData = pd.get_dummies(pd.DataFrame({'Location':['Hyderabad'],'NatureOfLocation':['CBD'],'LocationType':['Urban'],'Category':['Hoardings'],'Size(sqft)':[200],'PPI':['Medium'],'Light':['No']}))
 dummies_frame = pd.get_dummies(x,columns=["Location","NatureOfLocation","LocationType","Category","PPI","Light"])
 newData = newData.reindex(columns = dummies_frame.columns, fill_value=0)
-
+print(type(newData))
 pred = regressor.predict(newData)
-print(pred[0])
+print(type(pred[0]))
