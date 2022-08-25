@@ -53,3 +53,19 @@ Bangalore,GolfClub,CBD,Urban,Gantry,565,,High,Young,High,Yes,600000
 Bangalore,IndianOilFO,NH,Rural,Hoardings,930,,Low,MiddleAged,Medium,Yes,130000
 Delhi,EXPRESSMARTNOIDA,NH,Urban,Hoardings,128,,LowerMiddle,MiddleAged,High,No,125000
 Delhi,GRNOIDA,NH,Rural,Hoardings,900,,LowerMiddle,MiddleAged,Medium,No,125000
+Delhi,"YAMUNAJI, DELHI",NH,Urban,Hoardings,800,,LowerMiddle,MiddleAged,High,Yes,350000
+Delhi,Haveli,NH,Rural,Unipole,800,,Low,Elder,Low,No,47000
+Delhi,NoidaExpessway,NH,Rural,Unipole,450,,LowerMiddle,MiddleAged,Medium,No,60000
+Delhi,Kalindikunj road,SH,Urban,Unipole,200,,LowerMiddle,Elder,Medium,No,95000
+Delhi,Khoda,NH,Urban,Unipole,200,,LowerMiddle,MiddleAged,Medium,No,85000
+Delhi,Madhu Vihar,CBD,Urban,Hoardings,875,,LowerMiddle,MiddleAged,High,Yes,200000
+Delhi,Naraina,CBD,Urban,Hoardings,450,,UpperMiddle,MiddleAged,High,No,200000
+Delhi,NoidaJunction,CBD,Urban,Hoardings,500,,UpperMiddle,MiddleAged,Medium,Yes,110000
+Mumbai,TardeoRoad,CBD,Urban,Hoardings,800,,UpperMiddle,Young,Medium,No,290000
+Mumbai,WardenRoad,CBD,Urban,Hoardings,400,,High,Young,High,Yes,380000
+Mumbai,Worli Mela,SH,Urban,Unipole,600,,UpperMiddle,MiddleAged,Medium,Yes,100000
+Mumbai,Mumbai Central,RailwayStation,Urban,Hoardings,1200,,LowerMiddle,MiddleAged,Medium,No,135000
+Mumbai,Nana Chowk,CBD,Urban,Hoardings,400,,LowerMiddle,MiddleAged,High,No,200000
+Mumbai,Pune Expressway,NH,Rural,Hoardings,9310,2240370,LowerMiddle,MiddleAged,Medium,Yes,400000
+Mumbai,RaceCourse,CBD,Urban,Hoardings,400,,UpperMiddle,MiddleAged,High,Yes,380000
+Mumbai,PedderRoad,CBD,Urban,Hoardings,400,,High,Young,High,Yes,530000

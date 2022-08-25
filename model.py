@@ -27,4 +27,4 @@ dummies_frame = pd.get_dummies(x,columns=["Location","NatureOfLocation","Locatio
 newData = newData.reindex(columns = dummies_frame.columns, fill_value=0)
 print(type(newData))
 pred = regressor.predict(newData)
-print(type(pred[0]))
+print((pred[0]))
