@@ -6,7 +6,7 @@ import numpy as np
 import pickle
 
 df = pd.read_csv('data.csv')
-x = df.iloc[:,[0,2,3,4,5,9,10]]
+x = df.iloc[:,[0,2,3,5,8,9,10]]
 
 model = pickle.load(open('model.pkl','rb'))
 
