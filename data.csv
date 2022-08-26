@@ -13,7 +13,6 @@ Kolkata,Birla Mandir,CBD,Urban,Gantry,400,,LowerMiddle,MiddleAged,High,Yes,42500
 Kolkata,World Trade Park,TechPark,Urban,Gantry,368,,UpperMiddle,Young,High,Yes,300000
 Kolkata,Technopolis Bridge Facing Airport ,AirportRoad,Urban,Hoardings,1600,,UpperMiddle,Young,Medium,Yes,15000
 Kolkata,"B2 Bypass Circle, Facing Airport",AirportRoad,Rural,Gantry,360,,UpperMiddle,MiddleAged,Medium,No,200000
-Mumbai,CSMIA,Airport,Urban,Digital,0.22,370000,UpperMiddle,Young,High,Yes,60000
 Hyderabad,RGIA,Airport,Urban,Digital,1.8,270000,UpperMiddle,Young,High,Yes,1250000
 Bangalore,Adugodi,CBD,Urban,Hoardings,750,,LowerMiddle,Young,High,Yes,89000
 Bangalore,AirportRoad,AirportRoad,Rural,Hoardings,1200,,UpperMiddle,Young,High,Yes,125000
@@ -61,11 +60,3 @@ Delhi,Khoda,NH,Urban,Unipole,200,,LowerMiddle,MiddleAged,Medium,No,85000
 Delhi,Madhu Vihar,CBD,Urban,Hoardings,875,,LowerMiddle,MiddleAged,High,Yes,200000
 Delhi,Naraina,CBD,Urban,Hoardings,450,,UpperMiddle,MiddleAged,High,No,200000
 Delhi,NoidaJunction,CBD,Urban,Hoardings,500,,UpperMiddle,MiddleAged,Medium,Yes,110000
-Mumbai,TardeoRoad,CBD,Urban,Hoardings,800,,UpperMiddle,Young,Medium,No,290000
-Mumbai,WardenRoad,CBD,Urban,Hoardings,400,,High,Young,High,Yes,380000
-Mumbai,Worli Mela,SH,Urban,Unipole,600,,UpperMiddle,MiddleAged,Medium,Yes,100000
-Mumbai,Mumbai Central,RailwayStation,Urban,Hoardings,1200,,LowerMiddle,MiddleAged,Medium,No,135000
-Mumbai,Nana Chowk,CBD,Urban,Hoardings,400,,LowerMiddle,MiddleAged,High,No,200000
-Mumbai,Pune Expressway,NH,Rural,Hoardings,9310,2240370,LowerMiddle,MiddleAged,Medium,Yes,400000
-Mumbai,RaceCourse,CBD,Urban,Hoardings,400,,UpperMiddle,MiddleAged,High,Yes,380000
-Mumbai,PedderRoad,CBD,Urban,Hoardings,400,,High,Young,High,Yes,530000
