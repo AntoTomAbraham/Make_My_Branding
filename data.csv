@@ -1,10 +1,10 @@
 ﻿Location,Place,NatureOfLocation,LocationType,Category,Size(sqft),Footfall,IncomeLevel,AgeGroup,PPI,Light,Rate(1month)
 Mumbai,Bandra,CBD,Urban,Hoardings,855,,LowerMiddle,MiddleAged,Medium,No,180000
 Mumbai,Dadar Flyover,SH,Urban,Hoardings,800,,LowerMiddle,MiddleAged,Medium,No,100000
-Mumbai,Dadar Flyover,SH,Urban,Hoardings,600,,LowerMiddle,MiddleAged,Medium,No,100000
-Mumbai,ELPHINSTONE FLYOVER,CBD,Urban,Hoardings,1700,,LowerMiddle,MiddleAged,Medium,No,100000
-Mumbai,KEMPS CORNER,CBD,Urban,Hoardings,480,,LowerMiddle,MiddleAged,Low,No,260000
-Mumbai,LOWER PAREL FLYOVER,CBD,Urban,Hoardings,600,,LowerMiddle,MiddleAged,Medium,No,70000
+Mumbai,Dadar Flyover,SH,Urban,Hoardings,600,,LowerMiddle,MiddleAged,Medium,No,90000
+Mumbai,ELPHINSTONE FLYOVER,CBD,Urban,Hoardings,1700,,LowerMiddle,MiddleAged,Medium,No,320000
+Mumbai,KEMPS CORNER,CBD,Urban,Hoardings,480,,LowerMiddle,MiddleAged,High,No,260000
+Mumbai,LOWER PAREL FLYOVER,CBD,Urban,Hoardings,600,,Low,MiddleAged,Low,No,70000
 Kolkata,Technopolis Flyover,TechPark,Urban,Hoardings,1600,,UpperMiddle,Young,High,Yes,275000
 Kolkata,Sector 5,CBD,Urban,Hoardings,300,,LowerMiddle,MiddleAged,Medium,No,55000
 Kolkata,Sector V,CBD,Urban,Unipole,300,,LowerMiddle,MiddleAged,Medium,Yes,75000
