@@ -22,7 +22,7 @@ def predict():
     
     basePrice = {'Mumbai':150000,'Delhi':100000,'Bangalore':84000,'Kolkata':75000,'Chennai':20000}
     
-    newData = pd.get_dummies(pd.DataFrame({'Location':[request.args.get("Location")],'NatureOfLocation':[request.args.get("NOL")],'LocationType':[request.args.get("LocType")],'Category':[request.args.get("Category")],'Size(sqft)':[int(request.args.get("Size"))],'PPI':[request.args.get("PPI")],'Light':[request.args.get("Light")]}))
+    newData = pd.get_dummies(pd.DataFrame({'Location':[request.args.get("Location")],'NatureOfLocation':[request.args.get("NOL")],'LocationType':[request.args.get("LocType")],'AgeGroup':[request.args.get("AgeGroup")],'Size(sqft)':[int(request.args.get("Size"))],'PPI':[request.args.get("PPI")],'Light':[request.args.get("Light")]}))
     dummies_frame = pd.get_dummies(x,columns=["Location","NatureOfLocation","LocationType","Category","PPI","Light"])
     newData = newData.reindex(columns = dummies_frame.columns, fill_value=0)
     
